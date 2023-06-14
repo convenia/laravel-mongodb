@@ -1,6 +1,6 @@
 <?php
 
-namespace Jenssegers\Mongodb\Queue\Failed;
+namespace Convenia\Mongodb\Queue\Failed;
 
 use Carbon\Carbon;
 use Illuminate\Queue\Failed\DatabaseFailedJobProvider;

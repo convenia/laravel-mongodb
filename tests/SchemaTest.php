@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-use Jenssegers\Mongodb\Schema\Blueprint;
+use Convenia\Mongodb\Schema\Blueprint;
 
 class SchemaTest extends TestCase
 {

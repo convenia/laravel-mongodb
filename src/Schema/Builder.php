@@ -1,6 +1,6 @@
 <?php
 
-namespace Jenssegers\Mongodb\Schema;
+namespace Convenia\Mongodb\Schema;
 
 use Closure;
 

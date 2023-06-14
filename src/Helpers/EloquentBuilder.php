@@ -1,6 +1,6 @@
 <?php
 
-namespace Jenssegers\Mongodb\Helpers;
+namespace Convenia\Mongodb\Helpers;
 
 use Illuminate\Database\Eloquent\Builder;
 

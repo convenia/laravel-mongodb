@@ -1,13 +1,13 @@
 <?php
 
-namespace Jenssegers\Mongodb;
+namespace Convenia\Mongodb;
 
 use function class_exists;
 use Composer\InstalledVersions;
 use Illuminate\Database\Connection as BaseConnection;
 use Illuminate\Support\Arr;
 use InvalidArgumentException;
-use Jenssegers\Mongodb\Concerns\ManagesTransactions;
+use Convenia\Mongodb\Concerns\ManagesTransactions;
 use MongoDB\Client;
 use MongoDB\Database;
 use Throwable;
@@ -328,7 +328,7 @@ class Connection extends BaseConnection
     {
         if (class_exists(InstalledVersions::class)) {
             try {
-                return self::$version = InstalledVersions::getPrettyVersion('jenssegers/laravel-mongodb');
+                return self::$version = InstalledVersions::getPrettyVersion('Convenia/laravel-mongodb');
             } catch (Throwable $t) {
                 // Ignore exceptions and return unknown version
             }

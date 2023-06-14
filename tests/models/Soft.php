@@ -2,8 +2,8 @@
 
 declare(strict_types=1);
 
-use Jenssegers\Mongodb\Eloquent\Model as Eloquent;
-use Jenssegers\Mongodb\Eloquent\SoftDeletes;
+use Convenia\Mongodb\Eloquent\Model as Eloquent;
+use Convenia\Mongodb\Eloquent\SoftDeletes;
 
 /**
  * Class Soft.

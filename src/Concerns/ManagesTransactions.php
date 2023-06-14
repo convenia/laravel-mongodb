@@ -1,6 +1,6 @@
 <?php
 
-namespace Jenssegers\Mongodb\Concerns;
+namespace Convenia\Mongodb\Concerns;
 
 use Closure;
 use MongoDB\Client;

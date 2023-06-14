@@ -1,6 +1,6 @@
 <?php
 
-namespace Jenssegers\Mongodb\Validation;
+namespace Convenia\Mongodb\Validation;
 
 use Illuminate\Validation\ValidationServiceProvider as BaseProvider;
 

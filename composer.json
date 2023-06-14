@@ -1,5 +1,5 @@
 {
-    "name": "jenssegers/mongodb",
+    "name": "convenia/mongodb",
     "description": "A MongoDB based Eloquent model and Query builder for Laravel (Moloquent)",
     "keywords": [
         "laravel",
@@ -10,11 +10,17 @@
         "model",
         "moloquent"
     ],
-    "homepage": "https://github.com/jenssegers/laravel-mongodb",
+    "homepage": "https://github.com/convenia/laravel-mongodb",
     "authors": [
         {
             "name": "Jens Segers",
             "homepage": "https://jenssegers.com"
+        }
+    ],
+    "maintainers": [
+        {
+            "name": "Leonardo Lemos",
+            "homepage": "http://l30.space"
         }
     ],
     "license": "MIT",
@@ -32,7 +38,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Jenssegers\\Mongodb\\": "src/"
+            "Convenia\\Mongodb\\": "src/"
         }
     },
     "autoload-dev": {
@@ -43,7 +49,6 @@
         ]
     },
     "suggest": {
-        "jenssegers/mongodb-session": "Add MongoDB session support to Laravel-MongoDB",
         "jenssegers/mongodb-sentry": "Add Sentry support to Laravel-MongoDB"
     },
     "extra": {

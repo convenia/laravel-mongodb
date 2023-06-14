@@ -1,6 +1,6 @@
 <?php
 
-namespace Jenssegers\Mongodb\Queue;
+namespace Convenia\Mongodb\Queue;
 
 use Illuminate\Queue\Jobs\DatabaseJob;
 

@@ -1,12 +1,12 @@
 <?php
 
-namespace Jenssegers\Mongodb\Relations;
+namespace Convenia\Mongodb\Relations;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model as EloquentModel;
 use Illuminate\Database\Eloquent\Relations\Relation;
-use Jenssegers\Mongodb\Eloquent\Model;
+use Convenia\Mongodb\Eloquent\Model;
 
 abstract class EmbedsOneOrMany extends Relation
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Jenssegers\Mongodb\Eloquent;
+namespace Convenia\Mongodb\Eloquent;
 
 use Illuminate\Database\Eloquent\Builder as EloquentBuilder;
-use Jenssegers\Mongodb\Helpers\QueriesRelationships;
+use Convenia\Mongodb\Helpers\QueriesRelationships;
 use MongoDB\Driver\Cursor;
 use MongoDB\Model\BSONDocument;
 

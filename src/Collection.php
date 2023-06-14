@@ -1,6 +1,6 @@
 <?php
 
-namespace Jenssegers\Mongodb;
+namespace Convenia\Mongodb;
 
 use Exception;
 use MongoDB\BSON\ObjectID;
