@@ -1,12 +1,9 @@
 version: '3'
 
 services:
-    tests:
-        container_name: tests
-        tty: true
-        build:
-            context: .
-            dockerfile: Dockerfile
+    workspace:
+        container_name: workspace
+        image: convenia/php-full:8.1
         volumes:
             - .:/code
         working_dir: /code
