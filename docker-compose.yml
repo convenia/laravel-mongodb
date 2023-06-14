@@ -3,7 +3,7 @@ version: '3'
 services:
     workspace:
         container_name: workspace
-        image: convenia/php-full:8.1
+        image: convenia/php-full:8.2
         volumes:
             - .:/code
         working_dir: /code
